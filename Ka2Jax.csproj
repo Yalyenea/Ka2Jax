@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+      <OutputType>WinExe</OutputType>
+      <TargetFramework>net6.0-windows</TargetFramework>
+      <Nullable>enable</Nullable>
+      <UseWPF>true</UseWPF>
+      <ApplicationIcon>Assets\app-icon.ico</ApplicationIcon>
+      <ApplicationManifest>app.manifest</ApplicationManifest>
+      <Platforms>x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\app-icon.ico" />
+  </ItemGroup>
+</Project>

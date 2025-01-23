@@ -1,0 +1,17 @@
+D:\Project\KaTeX2MathJax\Ka2Jax\obj\Debug\net48\Ka2Jax.csproj.AssemblyReference.cache
+D:\Project\KaTeX2MathJax\Ka2Jax\obj\Debug\net48\MainWindow.baml
+D:\Project\KaTeX2MathJax\Ka2Jax\obj\Debug\net48\MainWindow.g.cs
+D:\Project\KaTeX2MathJax\Ka2Jax\obj\Debug\net48\App.g.cs
+D:\Project\KaTeX2MathJax\Ka2Jax\obj\Debug\net48\Ka2Jax_MarkupCompile.cache
+D:\Project\KaTeX2MathJax\Ka2Jax\obj\Debug\net48\Ka2Jax.g.resources
+D:\Project\KaTeX2MathJax\Ka2Jax\obj\Debug\net48\Ka2Jax.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\KaTeX2MathJax\Ka2Jax\obj\Debug\net48\Ka2Jax.AssemblyInfoInputs.cache
+D:\Project\KaTeX2MathJax\Ka2Jax\obj\Debug\net48\Ka2Jax.AssemblyInfo.cs
+D:\Project\KaTeX2MathJax\Ka2Jax\obj\Debug\net48\Ka2Jax.csproj.CoreCompileInputs.cache
+D:\Project\KaTeX2MathJax\Ka2Jax\bin\Debug\net48\Ka2Jax.exe.config
+D:\Project\KaTeX2MathJax\Ka2Jax\bin\Debug\net48\Ka2Jax.exe
+D:\Project\KaTeX2MathJax\Ka2Jax\bin\Debug\net48\Ka2Jax.pdb
+D:\Project\KaTeX2MathJax\Ka2Jax\bin\Debug\net48\System.Windows.Forms.dll
+D:\Project\KaTeX2MathJax\Ka2Jax\obj\Debug\net48\Ka2Jax.csproj.Up2Date
+D:\Project\KaTeX2MathJax\Ka2Jax\obj\Debug\net48\Ka2Jax.exe
+D:\Project\KaTeX2MathJax\Ka2Jax\obj\Debug\net48\Ka2Jax.pdb
