@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AqR6aq74JCI=",
+  "dgSpecHash": "rENMaBNXXE4=",
   "success": true,
-  "projectFilePath": "D:\\Project\\KaTeX2MathJax\\Ka2Jax\\Ka2Jax.csproj",
+  "projectFilePath": "D:\\Project\\Ka2Jax\\Ka2Jax.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\YUAN\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
     "C:\\Users\\YUAN\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",

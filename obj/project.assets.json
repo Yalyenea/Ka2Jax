@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\KaTeX2MathJax\\Ka2Jax\\Ka2Jax.csproj",
+      "projectUniqueName": "D:\\Project\\Ka2Jax\\Ka2Jax.csproj",
       "projectName": "Ka2Jax",
-      "projectPath": "D:\\Project\\KaTeX2MathJax\\Ka2Jax\\Ka2Jax.csproj",
+      "projectPath": "D:\\Project\\Ka2Jax\\Ka2Jax.csproj",
       "packagesPath": "C:\\Users\\YUAN\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\KaTeX2MathJax\\Ka2Jax\\obj\\",
+      "outputPath": "D:\\Project\\Ka2Jax\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\YUAN\\AppData\\Roaming\\NuGet\\NuGet.Config"
