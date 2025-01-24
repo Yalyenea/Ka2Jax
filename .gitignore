@@ -1,0 +1,3 @@
+# 忽略 bin 和 obj 目录
+bin/
+obj/
