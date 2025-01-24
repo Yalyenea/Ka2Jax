@@ -14,6 +14,10 @@ Ka2Jax is a Windows desktop application designed to convert mathematical formula
    - Automatically detects and converts KaTeX formulas copied to the clipboard
    - Updates clipboard with converted MathJax format
 
+### **Screenshot**
+
+![1737711482469](image/README/1737711482469.png)
+
 ### **How to Run:**
 
 1. Ensure .NET 6.0 Runtime is installed on your system
