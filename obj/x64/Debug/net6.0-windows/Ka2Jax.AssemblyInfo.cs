@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ka2Jax")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63315580efeef1e755e0be8ee3865b80a497ea16")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ka2Jax")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ka2Jax")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

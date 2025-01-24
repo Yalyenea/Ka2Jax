@@ -20,10 +20,46 @@
                  TextWrapping="Wrap"/>
         
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="ClearButton"
+                    Margin="10"
+                    Padding="20,10"
+                    Content="清除"
+                    FontSize="14"
+                    FontWeight="Bold"
+                    Click="ClearButton_Click">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="#f1e3e1"/>
+                        <Setter Property="Foreground" Value="Black"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border x:Name="border"
+                                            Background="{TemplateBinding Background}"
+                                            CornerRadius="8"
+                                            Padding="{TemplateBinding Padding}">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="border" Property="Background" Value="#e8d0cd"/>
+                                        </Trigger>
+                                        <Trigger Property="IsPressed" Value="True">
+                                            <Setter TargetName="border" Property="Background" Value="#d8bebc"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            
             <Button x:Name="ConvertButton"
                     Margin="10"
                     Padding="20,10"
-                    Content="Convert to $$"
+                    Content="转换"
                     FontSize="14"
                     FontWeight="Bold">
                 <Button.Style>
@@ -51,7 +87,7 @@
                                 </ControlTemplate>
                             </Setter.Value>
                         </Setter>
-                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="Foreground" Value="Black"/>
                         <Setter Property="BorderThickness" Value="0"/>
                         <Setter Property="Template">
                             <Setter.Value>
@@ -94,7 +130,7 @@
             <Button x:Name="CopyButton"
                     Margin="10"
                     Padding="20,10"
-                    Content="Copy Output"
+                    Content="复制输出"
                     FontSize="14"
                     FontWeight="Bold"
                     Click="CopyButton_Click">
@@ -126,6 +162,42 @@
                     </Style>
                 </Button.Style>
             </Button>
+            
+            <ToggleButton x:Name="ClipboardToggle"
+                         Margin="10"
+                         Padding="20,10"
+                         Content="剪贴板监听：开"
+                         FontSize="14"
+                         FontWeight="Bold"
+                         IsChecked="True">
+                <ToggleButton.Style>
+                    <Style TargetType="ToggleButton">
+                        <Setter Property="Background" Value="#f1e3e1"/>
+                        <Setter Property="Foreground" Value="Black"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ToggleButton">
+                                    <Border x:Name="border"
+                                            Background="{TemplateBinding Background}"
+                                            CornerRadius="8"
+                                            Padding="{TemplateBinding Padding}">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="border" Property="Background" Value="#ffc0cb"/>
+                                        </Trigger>
+                                        <Trigger Property="IsPressed" Value="True">
+                                            <Setter TargetName="border" Property="Background" Value="#ffb6c1"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ToggleButton.Style>
+            </ToggleButton>
         </StackPanel>
                 
         <TextBox x:Name="OutputTextBox" 

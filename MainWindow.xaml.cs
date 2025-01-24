@@ -13,8 +13,11 @@ namespace Ka2Jax
         public MainWindow()
         {
             InitializeComponent();
+            ClearButton.Click += ClearButton_Click;
             ConvertButton.Click += ConvertButton_Click;
             CopyButton.Click += CopyButton_Click;
+            ClipboardToggle.Checked += ClipboardToggle_Checked;
+            ClipboardToggle.Unchecked += ClipboardToggle_Unchecked;
             StartClipboardMonitoring();
             // 添加快捷键支持
             this.InputBindings.Add(new KeyBinding(
@@ -89,7 +92,7 @@ namespace Ka2Jax
                 {
                     await Task.Delay(500, cts.Token);
                     
-                    if (System.Windows.Clipboard.ContainsText())
+                    if (ClipboardToggle.IsChecked == true && System.Windows.Clipboard.ContainsText())
                     {
                         string clipboardText = System.Windows.Clipboard.GetText();
                         if (clipboardText != lastClipboardText)
@@ -105,6 +108,27 @@ namespace Ka2Jax
             {
                 // 正常退出
             }
+        }
+
+        private void ClipboardToggle_Checked(object sender, RoutedEventArgs e)
+        {
+            ClipboardToggle.Content = "剪贴板监听：开";
+            if (cts == null || cts.IsCancellationRequested)
+            {
+                StartClipboardMonitoring();
+            }
+        }
+
+        private void ClipboardToggle_Unchecked(object sender, RoutedEventArgs e)
+        {
+            ClipboardToggle.Content = "剪贴板监听：关";
+            cts?.Cancel();
+        }
+
+        private void ClearButton_Click(object sender, RoutedEventArgs e)
+        {
+            InputTextBox.Clear();
+            OutputTextBox.Clear();
         }
 
         protected override void OnClosed(EventArgs e)
