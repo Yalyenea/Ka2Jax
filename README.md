@@ -2,6 +2,8 @@
 
 Ka2Jax is a Windows desktop application designed to convert mathematical formulas from KaTeX format to MathJax format. It provides a simple and intuitive interface for users to input KaTeX formulas and get the corresponding MathJax output.
 
+There is also a MacOS app with no-gui in [Release](https://github.com/Yalyenea/Ka2Jax/releases/).
+
 ### **Key Features:**
 
 1. KaTeX to MathJax Conversion:
