@@ -4,7 +4,7 @@ Ka2Jax is a Windows desktop application designed to convert mathematical formula
 
 ~~There is also a no-gui MacOS app in [Release](https://github.com/Yalyenea/Ka2Jax/releases/).~~
 
-The mac app above might be failed on the latest macos system. There is also a executable file available. Use it by `chmod +x yourpath/Ka2Jax && yourpath/Ka2Jax`.
+The mac app above might be failed on the latest macos system. There is also a executable file available. Use it by `chmod +x yourpath/Ka2Jax && yourpath/Ka2Jax`, you can also add `alias Ka2Jax='/Users/yfff/Tool/Ka2Jax'` in file `~/.zshrc` to replace fullpath, just `Ka2Jax` in Terminal!
 
 ### **Key Features:**
 
